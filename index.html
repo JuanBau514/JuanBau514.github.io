@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Linux</title>
+</head>
+<body>
+  <section class="home">
+    <div class="in-flex">
+      <div class="left">
+         <div class="head">
+          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seozen.top%2Fwp-content%2Fuploads%2F2021%2F01%2F1200px-Gnulinux.svg_.png&f=1&nofb=1&ipt=cbe506cd8c54df7ce6df6864fdca7c6dda9bafbcca5ee457ad3b0fba4f79754b&ipo=images" alt="Warning">
+          <div class="titulo"><b>Proyecto de Incriptación-GNU/Linux   Universidad Distrital Francisco José de Caldas</b> </h1>
+          </div>         
+        </div>
+         
+        <div class="encripter">
+              <textarea class="menssage" cols="30" rows="10" placeholder="Ingrese el texto aqui" id ="textoAEncriptar"></textarea>
+              <div class="buttons">
+                <button class="btn-encriptar button" id="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar button" id="btn-desencriptar">Desencriptar</button>
+              </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="in-flex flex-rigth" id="div-resultado-inflex">
+      <div class="rigth">
+        <div class="result" id="divResultado">
+            <img src="https://i.ibb.co/PZ5hxgL/DALL-E-2023-05-03-23-04-38-minimalists-universe-with-computersfloat-in-removebg-preview-1.png" >
+            <div class="text">
+               <p class="main-text"><b>Ningún mensaje fue encontrado</b><p>
+               <p class="secondary-text">Ingrese texto que desea encriptar o desencriptar</p>
+            </div>
+        </div>
+        <div class="container-result" id="containerResult">
+          <textarea class="result_txt" id="resultado"></textarea>
+          <div  id="containerCopiar" class="container-copiar">
+            <button class="btn-copiar button" id = "btn-copiar">Copiar</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+</body>
+<script src="./src/index.js"></script>
+</html>
